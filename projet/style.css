@@ -1,0 +1,44 @@
+/*  GENERAL */
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    font-family: Arial, sans-serif;
+    font-size : 15px;
+}
+
+
+/*  HEADER  */
+header h1{
+    float:left; /*fixer a droite notre menu de nav*/
+    margin-top: 20px;
+    font-size : 60px;
+    margin-left: 10px;
+}
+header h1 .red{
+    color:red;
+}
+header nav{
+    float:right; /*fixer a gauche notre menu de nav*/
+    margin-top: 50px;
+}
+header nav ul{
+    list-style: none; /*enlever les puces*/
+}
+header nav ul li{
+    display:inline-block; /*les elements du navigateur sont alignés*/
+}
+header nav ul li a{
+    text-transform: uppercase; /* tout mettre en majuscule*/
+    text-decoration: none; /*enlever le soulihnemet*/
+    color: black;
+    font-weight: bold; /*mettre en gras*/
+    margin-right: 30px;
+}
+
+/*  ACCUEIL  */
+.responsive {
+    width: 100%;
+    height: auto;
+  }
